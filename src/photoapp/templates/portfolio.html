@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+
+<style>
+      {% block style %}
+      {{ super.block }}
+
+       body{
+       	background-image: url("{% static "img/beach.jpg" %}");
+       	background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+       }
+
+        img {
+        	position: fixed;
+        	margin-left: 22%;
+        	margin-top: 1%;
+        
+      }
+
+
+
+
+      {% endblock %}
+</style>
+
+
+{% block nav %}
+
+<div class="site-wrapper">
+		<a href="/"><h3 class="masthead-brand"><img src= {% static "img/logo4.png" %} alt="logo"></h3> </a>
+      	<div class="site-wrapper-inner">
+	        <div class="cover-container">
+
+	          <div class="masthead clearfix">
+	            <div class="inner">
+	              <nav>
+	                <ul class="nav masthead-nav">
+	                  <li class="active"><a href="/portfolio">portfolio</a></li>
+	                  <li><a href="#">o mnie</a></li>
+	                  <li><a href="#">cennik</a></li>
+	                  <li><a href="/contact">kontakt</a></li>
+	                </ul>
+	              </nav>
+	            </div>
+	          </div>
+				  
+				  
+	        </div>
+
+      </div>
+   </div>
+   {% endblock %}

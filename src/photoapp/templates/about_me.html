@@ -1,0 +1,117 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+
+<style>
+       {% block style %}
+      	{{ super.block }}
+
+       body{
+       	background-image: url("{% static "img/drop.jpg" %}");
+       	background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        min-height: 100%;
+        width: 98%;
+       }
+
+
+      img.msg{
+      	position: fixed;
+      	margin-left: 310px;
+      	margin-top: -580px;
+      }
+
+
+      img.fb{
+        position: fixed;
+        margin-left: 310px;
+        margin-top: -500px;
+      }
+
+      img.smile{
+        position: fixed;
+        margin-left: -560px;
+        margin-top: -130px;
+      }
+
+
+      .dropdown:hover .dropdown-menu{
+        	display: block;
+      }
+
+      .jumbotron{
+      	border-radius: 10px;
+      	text-align: center;
+      	width: 670px;
+      	margin: auto;
+      	margin-top: 3%;
+      }
+
+      h4{
+        width: 425px;
+        margin: auto;
+        line-height: 36px;
+      }
+
+      hr{
+        width: 70%;
+      }
+
+      .logo{
+          margin-top: -9px;
+        }
+
+
+      {% endblock %}
+    </style>
+
+{% block nav %}
+  	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><img class="logo" src= {% static "img/LOGOmain.png" %} alt="logo"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active" ><a href="#about">O mnie</a></li>
+            <li><a href="/contact">Kontakt</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fotografia<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/photologue/gallery/">Najnowsze galerie</a></li>
+                <li><a href="/photologue/gallerylist/">Wszystkie galerii</a></li>
+                <li><a href="/photologue/photolist/">Wszystkie zdjęcia</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+{% endblock %}
+
+
+{% block cont %}
+    <div class="jumbotron">
+    	
+
+					    <h2><b>Witaj na mojej stronie ! </b><br></h2><hr>
+					    	<h4>
+                    Jestem jedną z tych mam, które po narodzinach swojego dziecka odkryły fotograficzną pasję.<br> Na początku było to zwykłe upamiętnianie ważnych i pięknych chwil, które z czasem przerodziło się w stan „nie mogę żyć bez aparatu”.<br> <br><b>Fotografowanie sprawia mi wiele radości.</b> Zwłaszcza, gdy udaje mi się zatrzymać w kadrze to coś, co czyni go wyjątkowym – <i>emocje, nastrój, uczucia…</i> 
+                    <b>Jeżeli i Ty pragniesz mieć taką fotograficzną pamiątkę - zapraszam do kontaktu. </b>
+                    Sesje organizuję w wybranym przez Was lub przeze mnie plenerze lub w Waszym domu. <br> <br>
+                    <b><span style="margin-left:255px;">Zapraszam, Celina</span></b>.<br><br>
+                </h4>
+                <a href="/contact"><img class="msg" src= "{% static "img/msg1.png" %}" onmouseover= "this.src= '{% static "img/msg2.png" %}' " onmouseout= "this.src= '{% static "img/msg1.png" %}'" /></a>
+                <a href="https://www.facebook.com/celina.krzyzkowska" target="_blank"><img class="fb" src= "{% static "img/fb1.png" %}" onmouseover= "this.src= '{% static "img/fb2.png" %}' " onmouseout= "this.src= '{% static "img/fb1.png" %}'" /></a>
+                <img class="smile" src= {% static "img/smile.png" %} alt="smile">
+		
+	</div>
+	<br>
+{% endblock %}

@@ -1,0 +1,1150 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"algi",
+				"text-align"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"color",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"search",
+				"search_text"
+			],
+			[
+				"is_",
+				"is_authenticated"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"r",
+				"request"
+			],
+			[
+				"aut",
+				"author_id"
+			],
+			[
+				"blog",
+				"blog_detail"
+			],
+			[
+				"Email",
+				"EmailField"
+			],
+			[
+				"sty",
+				"list-style"
+			],
+			[
+				"is",
+				"is_authenticated"
+			],
+			[
+				"all",
+				"all_profiles"
+			],
+			[
+				"post",
+				"post_list"
+			],
+			[
+				"w",
+				"width_field"
+			],
+			[
+				"backgor",
+				"background-color"
+			],
+			[
+				"backgou",
+				"background-color"
+			],
+			[
+				"Mem",
+				"Membership"
+			],
+			[
+				"User",
+				"UserCreationForm"
+			],
+			[
+				"render",
+				"render_to_response"
+			],
+			[
+				"Http",
+				"HttpResponseRedirect"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"Member",
+				"MemberForm"
+			],
+			[
+				"zipp",
+				"zipped_data"
+			],
+			[
+				"size",
+				"background-size"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"Skill",
+				"SkillForm"
+			],
+			[
+				"skill",
+				"skill_settings"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"CV",
+				"CV"
+			],
+			[
+				"fotn",
+				"font-size"
+			],
+			[
+				"onmo",
+				"onmouseover	Attr"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"per",
+				"person"
+			],
+			[
+				"name",
+				"nameGroup"
+			],
+			[
+				"Group",
+				"GroupForm"
+			],
+			[
+				"LinkFor",
+				"LinkFormSet"
+			],
+			[
+				"link",
+				"link_formset"
+			],
+			[
+				"Sk",
+				"SkForm"
+			],
+			[
+				"se",
+				"send_message"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"link_form",
+				"link_formset"
+			],
+			[
+				"user_",
+				"user_links"
+			],
+			[
+				"study",
+				"study_2"
+			],
+			[
+				"profile_image",
+				"profile_image_upload"
+			],
+			[
+				"cv",
+				"cv_detail"
+			],
+			[
+				"form",
+				"form_document"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"UserFirm",
+				"UserFirm"
+			],
+			[
+				"uni",
+				"university"
+			],
+			[
+				"update",
+				"update_exp"
+			],
+			[
+				"edit",
+				"edit_profile"
+			],
+			[
+				"login",
+				"login_required"
+			],
+			[
+				"T",
+				"TextInput"
+			],
+			[
+				"new",
+				"new_cv"
+			],
+			[
+				"au",
+				"author"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"test",
+				"test_view"
+			],
+			[
+				"Model",
+				"ModelChoiceField"
+			],
+			[
+				"Search",
+				"SearchForm"
+			],
+			[
+				"sear",
+				"search_text"
+			],
+			[
+				"sea",
+				"search_text"
+			],
+			[
+				"tx",
+				"search_text"
+			],
+			[
+				"Cv",
+				"CvForm"
+			],
+			[
+				"Sig",
+				"SignUp"
+			],
+			[
+				"full",
+				"full_name"
+			],
+			[
+				"siz",
+				"font-size"
+			],
+			[
+				"b",
+				"inline-block"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"EMAIL",
+				"EMAIL_HOST"
+			],
+			[
+				"c",
+				"cleanded_data"
+			],
+			[
+				"SignU",
+				"SignUpForm"
+			],
+			[
+				"Sign",
+				"SignUpAdmin"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/photoapp/templates/home.html",
+			"settings":
+			{
+				"buffer_size": 3318,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/python2.7/site-packages/photologue/templates/photologue/photo_list.html",
+			"settings":
+			{
+				"buffer_size": 968,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/static_in_pro/our_static/css/style1.css",
+			"settings":
+			{
+				"buffer_size": 6013,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/python2.7/site-packages/photologue/templates/photologue/photo_detail.html",
+			"settings":
+			{
+				"buffer_size": 2241,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/static_in_pro/our_static/css/style3.css",
+			"settings":
+			{
+				"buffer_size": 6130,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/photoapp/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 3952,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/photoapp/templates/contact.html",
+			"settings":
+			{
+				"buffer_size": 3119,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/photoapp/views.py",
+			"settings":
+			{
+				"buffer_size": 1375,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/photoapp/forms.py",
+			"settings":
+			{
+				"buffer_size": 485,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/photoapp/templates/portfolio.html",
+			"settings":
+			{
+				"buffer_size": 1239,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/projectphoto/settings.py",
+			"settings":
+			{
+				"buffer_size": 3777,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/projectphoto/urls.py",
+			"settings":
+			{
+				"buffer_size": 1319,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/damian/projphoto/src",
+		"/home/damian/projphoto/src/photoapp",
+		"/home/damian/projphoto/src/projectphoto",
+		"/home/damian/projphoto/src/static_in_env",
+		"/home/damian/projphoto/src/static_in_pro",
+		"/home/damian/projphoto/src/static_in_pro/our_static",
+		"/home/damian/projphoto/src/static_in_pro/our_static/css",
+		"/home/damian/projphoto/lib/python2.7/site-packages/photologue",
+		"/home/damian/projphoto/lib/python2.7/site-packages/photologue/templates",
+		"/home/damian/projphoto/lib/python2.7/site-packages/photologue/templates/photologue"
+	],
+	"file_history":
+	[
+		"/home/damian/projphoto/src/static_in_pro/our_static/css/screen.css",
+		"/home/damian/projphoto/src/static_in_pro/our_static/css/style3.css",
+		"/home/damian/projphoto/src/photoapp/templates/index3.html",
+		"/home/damian/Pulpit/lightbox/index3.html",
+		"/home/damian/projphoto/src/static_in_pro/our_static/css/demo2.css",
+		"/home/damian/projphoto/lib/python2.7/site-packages/photologue/templates/photologue/gallery_archive_month.html",
+		"/home/damian/projphoto/lib/python2.7/site-packages/photologue/templates/photologue/gallery_archive_day.html",
+		"/home/damian/Pulpit/lightbox/css/style3.css",
+		"/home/damian/projphoto/lib/python2.7/site-packages/photologue/templates/photologue/gallery_list.html",
+		"/home/damian/projphoto/lib/python2.7/site-packages/photologue/templates/photologue/photo_detail.html",
+		"/home/damian/projphoto/lib/python2.7/site-packages/photologue/templates/photologue/gallery_archive.html",
+		"/home/damian/projphoto/lib/python2.7/site-packages/photologue/templates/photologue/gallery_archive_year.html",
+		"/home/damian/projphoto/lib/python2.7/site-packages/photologue/templates/photologue/gallery_detail.html",
+		"/home/damian/projphoto/lib/python2.7/site-packages/photologue/templates/photologue/photo_list.html",
+		"/home/damian/projphoto/src/projectphoto/urls.py",
+		"/home/damian/projphoto/src/photoapp/forms.py",
+		"/home/damian/projphoto/src/photoapp/views.py",
+		"/home/damian/projphoto/src/photoapp/templates/new.html",
+		"/home/damian/projphoto/src/static_in_pro/our_static/css/cover.css",
+		"/home/damian/Pulpit/Animation/index3.html",
+		"/home/damian/proj1/blog/blog/urls.py",
+		"/home/damian/proj1/blog/blogapp/models.py",
+		"/home/damian/proj1/blog/blogapp/forms.py",
+		"/home/damian/proj1/blog/blog/settings.py",
+		"/home/damian/proj1/blog/blogapp/templates/post_view.html",
+		"/home/damian/proj1/blog/blogapp/templates/blog_detail.html",
+		"/home/damian/proj1/blog/blogapp/templates/base.html",
+		"/home/damian/proj1/blog/blogapp/templates/home.html",
+		"/home/damian/proj1/blog/blogapp/views.py",
+		"/home/damian/proj1/blog/custom_storages.py",
+		"/home/damian/proj1/blog/blogapp/templates/my_blog.html",
+		"/home/damian/proj1/blog/blogapp/templates/new_prof.html",
+		"/home/damian/proj1/blog/blogapp/templates/favourites.html",
+		"/home/damian/proj1/blog/blogapp/templates/ajax_search.html",
+		"/home/damian/proj1/blog/blogapp/admin.py",
+		"/home/damian/trydjango/src/templates/home.html",
+		"/home/damian/trydjango/src/proj/models.py",
+		"/home/damian/trydjango/src/templates/base.html",
+		"/home/damian/trydjango/src/proj/views.py",
+		"/home/damian/Pulpit/FP/script/my_script.js",
+		"/home/damian/Pulpit/FP/style.css",
+		"/home/damian/Pulpit/FP/main.html",
+		"/home/damian/Pulpit/FP/my_script.js",
+		"/home/damian/Pulpit/FP/jquery-2.2.0.min.js",
+		"/home/damian/blog/blog/db/migrate/20160424171259_create_articles.rb",
+		"/home/damian/blog/blog/config/routes.rb",
+		"/home/damian/blog/blog/app/models/article.rb",
+		"/home/damian/blog/blog/app/views/articles/_form.html.erb",
+		"/home/damian/blog/blog/app/views/comments/_comment.html.erb",
+		"/home/damian/blog/blog/app/views/comments/_form.html.erb",
+		"/home/damian/blog/blog/app/views/articles/show.html.erb",
+		"/home/damian/blog/blog/app/controllers/comments_controller.rb",
+		"/home/damian/blog/blog/app/controllers/articles_controller.rb",
+		"/home/damian/blog/blog/app/views/articles/edit.html.erb",
+		"/home/damian/blog/blog/app/views/articles/new.html.erb",
+		"/home/damian/blog/blog/app/models/comment.rb",
+		"/home/damian/blog/blog/app/views/articles/index.html.erb",
+		"/home/damian/blog/blog/app/views/welcome/index.html.erb",
+		"/home/damian/blog/blog/app/controllers/welcome_controller.rb",
+		"/home/damian/zad3.rb",
+		"/home/damian/trydjango/src/trydjango/zad2.rb",
+		"/home/damian/trydjango/src/trydjango/urls.py",
+		"/home/damian/trydjango/src/proj/forms.py",
+		"/home/damian/trydjango/src/templates/groups.html",
+		"/home/damian/trydjango/src/templates/base_cv.html",
+		"/home/damian/trydjango/src/templates/register.html",
+		"/home/damian/trydjango/src/trydjango/settings.py",
+		"/home/damian/trydjango/src/templates/edit_cv.html",
+		"/home/damian/trydjango/src/templates/cv_detail.html",
+		"/home/damian/trydjango/src/templates/login.html",
+		"/home/damian/trydjango/src/templates/navbar.html",
+		"/home/damian/trydjango/src/templates/register_success.html",
+		"/home/damian/trydjango/src/templates/invalid_login.html",
+		"/home/damian/trydjango/src/templates/logout.html",
+		"/home/damian/trydjango/src/templates/loggedin.html",
+		"/home/damian/Pobrane/connect-master/connect/accounts/views.py",
+		"/home/damian/trydjango/src/templates/registration/activation_complete.html",
+		"/home/damian/trydjango/src/templates/registration/registration_complete.html",
+		"/home/damian/trydjango/src/templates/choose_group.html",
+		"/home/damian/trydjango/src/templates/new_cv.html",
+		"/home/damian/trydjango/src/templates/send_message.html",
+		"/home/damian/trydjango/src/templates/edit_profile.html",
+		"/home/damian/trydjango/src/templates/update_exp.html",
+		"/home/damian/trydjango/src/templates/skill_settings.html",
+		"/home/damian/Pobrane/connect-master/connect/accounts/forms.py",
+		"/home/damian/Pobrane/connect-master/connect/accounts/models.py",
+		"/home/damian/Pobrane/connect-master/connect/accounts/templates/accounts/profile_settings.html",
+		"/home/damian/Pobrane/connect-master/connect/accounts/templates/accounts/login.html",
+		"/home/damian/Pobrane/connect-master/connect/discover/templates/discover/list.html",
+		"/home/damian/trydjango/src/static_in_pro/our_static/css/navbar-static-top.css",
+		"/home/damian/trydjango/src/proj/admin.py",
+		"/home/damian/Pobrane/connect-master/connect/accounts/view_utils.py",
+		"/home/damian/trydjango/src/staticfiles/css/navbar-static-top.css",
+		"/home/damian/trydjango/src/templates/head_css.html",
+		"/home/damian/trydjango/src/templates/javascript.html",
+		"/home/damian/trydjango/src/templates/appp.js",
+		"/home/damian/Pobrane/connect-master/connect/discover/views.py",
+		"/home/damian/Pobrane/connect-master/connect/discover/models.py",
+		"/home/damian/master/connect-master/connect/discover/templates/discover/list.html",
+		"/home/damian/master/connect-master/connect/accounts/templates/accounts/profile_settings.html",
+		"/home/damian/trydjango/src/templates/profile_image_form.html",
+		"/home/damian/trydjango/src/templates/profile_image_view.html",
+		"/home/damian/trydjango/src/proj/test2.html",
+		"/home/damian/trydjango/src/proj/profile_image_view.html",
+		"/home/damian/trydjango/src/staticfiles/img/video-play.svg",
+		"/home/damian/trydjango/src/staticfiles/admin/js/SelectBox.js",
+		"/home/damian/trydjango/src/trydjango/test.html",
+		"/home/damian/Pobrane/Django-jQuery-File-Uploader-Integration-demo-master/upload/views.py",
+		"/home/damian/master/connect-master/connect/accounts/views.py",
+		"/home/damian/trydjango/src/static_in_pro/our_static/css/bootstrap.min.css",
+		"/home/damian/trydjango/src/staticfiles/css/bootstrap.min.css",
+		"/home/damian/master/connect-master/connect/accounts/models.py",
+		"/home/damian/master/connect-master/connect/accounts/forms.py",
+		"/home/damian/master/connect-master/connect/discover/templates/discover/dashboard.html",
+		"/home/damian/master/connect-master/connect/accounts/templates/accounts/settings_base.html",
+		"/home/damian/trydjango/src/templates/myprofile.html",
+		"/home/damian/master/connect-master/connect/settings.py",
+		"/home/damian/master/connect-master/connect/templates/base.html",
+		"/home/damian/trydjango/src/templates/registration/activation_email.txt",
+		"/home/damian/trydjango/src/trydjango/local_settings.py",
+		"/home/damian/trydjango/src/templates/test.html",
+		"/home/damian/trydjango/src/templates/forms.html",
+		"/home/damian/trydjango/src/templates/registration/login.html",
+		"/home/damian/trydjango/src/proj/urls.py",
+		"/home/damian/trydjango/src/templates/my-profile.html",
+		"/home/damian/trydjango/src/templates/registration/logout.html",
+		"/home/damian/trydjango/src/templates/registration/registration_form.html",
+		"/home/damian/trydjango/src/static_in_pro/our_static/css/style.css"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"lb-cl",
+			"arr",
+			"color",
+			"nav masthead-nav",
+			"profile",
+			"prep",
+			"get",
+			"profile__author",
+			"  <",
+			"128\n\n\n",
+			"message",
+			"memberform",
+			"message",
+			" \n",
+			"SkillForm",
+			"ataTable",
+			"listed",
+			"simplejson",
+			"btn-lg",
+			".jumbotron",
+			"font-size",
+			"jumbotron",
+			"listed_users",
+			"user",
+			"links",
+			"anchor",
+			"bio",
+			"your",
+			"media",
+			"get",
+			"<hr>",
+			"head_title",
+			"include_register_url"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/photoapp/templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1047,
+								1047
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/python2.7/site-packages/photologue/templates/photologue/photo_list.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 968,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/static_in_pro/our_static/css/style1.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6013,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2333,
+								2333
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/python2.7/site-packages/photologue/templates/photologue/photo_detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1047,
+								1047
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 386.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/static_in_pro/our_static/css/style3.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3093,
+								3093
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1230.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/photoapp/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3952,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								781,
+								781
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/photoapp/templates/contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/photoapp/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1373,
+								1373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/photoapp/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								450,
+								450
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/photoapp/templates/portfolio.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								883,
+								883
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/projectphoto/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1279,
+								1279
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 365.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/projectphoto/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1127,
+								1127
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "projectphoto.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
