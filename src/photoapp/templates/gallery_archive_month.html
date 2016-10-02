@@ -46,7 +46,7 @@
             <h4 style="color:white">{% trans "Filtruj według dnia" %}</h4>
             <ul>
             {% for date in date_list %}
-                <li><a href="{% url 'photologue:gallery-archive-day' date.year date|date:"m"|lower date.day %}"><span style="font-weight:bold">{{ date|date:"d" }}</span></a></li>
+                <li><a href="{% url 'gallery-archive-day' date.year date|date:"m"|lower date.day %}"><span style="font-weight:bold">{{ date|date:"d" }}</span></a></li>
             {% endfor %}
             </ul>
 

@@ -151,6 +151,30 @@
 	transition: opacity 0.5s linear;
 	border-radius: 5px;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) and (orientation: portrait){
+
+      .lb-overlay img{
+        /* height: 100%; For Opera max-height does not seem to work */
+	max-width: 100%;
+        position: relative;
+        opacity: 0;
+        filter: alpha(opacity=0); /* internet explorer */
+          -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+        -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+        -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+        box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+        -webkit-transition: opacity 0.5s linear;
+        -moz-transition: opacity 0.5s linear;
+        -o-transition: opacity 0.5s linear;
+        -ms-transition: opacity 0.5s linear;
+        transition: opacity 0.5s linear;
+        border-radius: 5px;
+      }
+
+
+      }
+
 .lb-prev, .lb-next{
 	text-indent: -9000px;
 	position: absolute;

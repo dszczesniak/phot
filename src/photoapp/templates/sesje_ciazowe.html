@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load staticfiles %}
+
+<style>
+      {% block style %}
+      {{ block.super}}
+
+       .row.col-lg-12{
+        
+        margin-top: 2%;
+        border-radius: 10px;
+        width:82%;
+        margin-left: 3%;
+       }
+
+      .row.col-lg-12 img{
+        display: inline;
+        margin-left: 5px;
+      }
+
+      h1{
+        color: white;
+        font-size: 40px;
+        margin-left: 4%;
+      }
+
+      h2, .muted, .description_gallery{
+        text-align: left;
+        color: white;
+      }
+
+      h2 a:hover{
+        color:white;
+
+      }
+
+      .calosc{
+        margin-left: 10%;
+      }
+
+      h2{
+        margin-top: -2%;
+      }
+
+
+      {% endblock %}
+</style>
+
+{% block content %}
+<div class="calosc">
+        <h1 >{% trans "Sesje ciążowe" %}</h1><hr style="width:80%;margin-left:4%;">
+    {% if queryset %}
+        {% for gallery in queryset %}
+          {% if gallery.cats == 'C' %}
+            <div class="row col-lg-12">
+                <h2><a href="{{ gallery.get_absolute_url }}"><span style="color: white">{{ gallery.title }}</span></a></h2>
+                <p class="muted"><small>{% trans "Opublikowano" %} {{ gallery.date_added }}</small></p>
+                {% if gallery.description %}<p class="description_gallery">{{ gallery.description|safe }}</p>{% endif %}<br>
+                {% for photo in gallery.sample %}
+                    <a href="{{ photo.get_absolute_url }}">
+                         <img src="{{ photo.get_thumbnail_url }}" class="thumbnail" alt="{{ photo.title }}">
+                    </a>
+                {% endfor %}
+           <hr> </div>
+           {% endif %}
+        {% endfor %}
+    {% else %}
+        <div class="row col-lg-12">{% trans "Brak galerii" %}.</div>
+    {% endif %}
+</div>
+    {% include "photologue/includes/paginator.html" %}
+
+{% endblock %}

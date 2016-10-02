@@ -55,7 +55,7 @@
 			<h4 style="color: white">{% trans "Filtruj według roku" %}</h4>
 			<ul>
 			{% for date in date_list %}
-				<li><a href="{% url 'photologue:pl-gallery-archive-year' date.year %}"><span style="font-weight:bold">{{ date|date:"Y" }}</span></a></li>
+				<li><a href="{% url 'gallery-archive-year' date.year %}"><span style="font-weight:bold">{{ date|date:"Y" }}</span></a></li>
 			{% endfor %}
 			</ul>
 

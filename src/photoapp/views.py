@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
+import warnings
 from django.shortcuts import render
 from django.conf import settings
 from django.core.mail import send_mail
@@ -10,6 +11,11 @@ from django.shortcuts import get_object_or_404
 from django.shortcuts import render_to_response
 from .forms import SendMessageForm
 from datetime import datetime
+from django.views.generic.list import ListView
+from photologue.models import Gallery
+import warnings
+from django.views.generic.dates import ArchiveIndexView, DateDetailView, DayArchiveView, MonthArchiveView, YearArchiveView
+from django.views.generic.detail import DetailView
 
 def home(request):
 
@@ -46,7 +52,7 @@ def contact(request):
 		"form": form,
 	}
 
-	return render(request, "contact.html", con)
+	return render(request, "kontakt.html", con)
 
 
 
@@ -57,5 +63,36 @@ def portfolio(request):
 
 def me(request):
 	
-	return render(request, "about_me.html", {})
+	return render(request, "o_mnie.html", {})
 
+
+def sessions_pregnancy_view(request):
+	queryset = Gallery.objects.on_site().is_public()
+	paginate_by = 5
+
+	return render(request, "sesje_ciazowe.html", {"queryset": queryset})
+
+
+def sessions_neonatal_view(request):
+	queryset = Gallery.objects.on_site().is_public()
+	paginate_by = 5
+
+	return render(request, "sesje_noworodkowe.html", {"queryset": queryset})
+
+def sessions_family_view(request):
+	queryset = Gallery.objects.on_site().is_public()
+	paginate_by = 5
+
+	return render(request, "sesje_rodzinne.html", {"queryset": queryset})
+
+def sessions_occasional_view(request):
+	queryset = Gallery.objects.on_site().is_public()
+	paginate_by = 5
+
+	return render(request, "sesje_okazjonalne.html", {"queryset": queryset})
+
+def project_360_view(request):
+	queryset = Gallery.objects.on_site().is_public()
+	paginate_by = 5
+
+	return render(request, "projekt_360.html", {"queryset": queryset})

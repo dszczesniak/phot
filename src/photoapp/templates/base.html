@@ -12,7 +12,7 @@
     <meta name="Damian Szczesniak" content="Photo Site">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>PhotoProject</title>
+    <title>Celina Krzyzowska Fotografia</title>
     <!-- Bootstrap core CSS -->
     <link href="{% static 'css/bootstrap2.min.css' %}" rel="stylesheet">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -51,6 +51,14 @@
         	margin-top: -9px;
         }
 
+        .naaav{
+          font-size: 20px;
+        }
+
+        .dropdown{
+          font-size: 20px;
+        }
+
       {% endblock %}
     </style>
 
@@ -73,14 +81,18 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li ><a href="/about_me">O mnie</a></li>
-            <li><a href="/contact">Kontakt</a></li>
+            <li class="naaav"><a href="/o_mnie">O mnie</a></li>
+            <li class="naaav"><a href="/kontakt">Kontakt</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fotografia<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="/photologue/gallery/">Najnowsze galerie</a></li>
-                <li><a href="/photologue/gallerylist/">Wszystkie galerii</a></li>
                 <li><a href="/photologue/photolist/">Wszystkie zdjęcia</a></li>
+                <li><a href="/sesje_ciazowe/">Sesje ciążowe</a></li>
+                <li><a href="/sesje_rodzinne/">Sesje rodzinne</a></li>
+                <li><a href="/sesje_noworodkowe/">Sesje noworodkowe</a></li>
+                <li><a href="/sesje_okazjonalne/">Sesje okazjonalne</a></li>
+                <li><a href="/projekt_360/"><b>Mój projekt 365</b></a></li>
               </ul>
             </li>
           </ul>
@@ -102,10 +114,12 @@
 
 
 
-
+{% block js %}
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
@@ -116,7 +130,7 @@
     <script src="{% static 'js/modernizr.custom.86080.js' %}"></script>
     <script src="{% static 'js/ie-emulation-modes-warning2.js' %}"></script>
     <script src="{% static 'js/ie-emulation-modes-warning.js' %}"></script>
-
+{% endblock %}
 
 
   </body>

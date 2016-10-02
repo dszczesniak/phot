@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <meta name="Damian Szczesniak" content="Photo Site">
     <link rel="icon" href="../../favicon.ico">
-    <title>PhotoProject</title>
+    <title>Celina Krzyzowska Fotografia</title>
     <!-- Bootstrap core CSS -->
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -23,22 +23,45 @@
 
     <link href="{% static 'css/style1.css' %}" rel="stylesheet">
     <link href="{% static 'css/demo.css' %}" rel="stylesheet">
-
-
+    <link href="{% static 'css/navbar-fixed-top.css' %}" rel="stylesheet">
 
     <style>
       {% block style %}
 
-        img {
-        	position: fixed;
-        	margin-left: 22%;
-        	margin-top: 1%;
-      }
+             body{
+        min-height: 100%;
+        
+       }
+
 
       	.nav.masthead-nav{
       		font-size: 53px;
       	}
    
+
+        .dropdown:hover .dropdown-menu{
+        	display: block;
+        }
+
+        .logo{
+        	margin-top: -9px;
+        }
+
+        nav.navbar-nav{
+        	font-family: Arial;
+        }
+
+        li{
+        	font-family: Arial;
+        }
+
+        .naaav{
+          font-size: 20px;
+        }
+
+        .dropdown{
+          font-size: 20px;
+        }
 
       {% endblock %}
     </style>
@@ -50,42 +73,56 @@
 {% block home %}
 
 	<ul class="cb-slideshow">
-            <li><span></span><div><h3>Profeslonalizm</h3></div></li>
-            <li><span></span><div><h3>Swoboda</h3></div></li>
-            <li><span></span><div><h3>Perfekcja</h3></div></li>
-            <li><span></span><div><h3>Komfort</h3></div></li>
-            <li><span></span><div><h3>Zadowolenie</h3></div></li>
-            <li><span></span><div><h3>Optymizm</h3></div></li>
+            <li><span></span><div><h3> </h3></div></li>
+            <li><span></span><div><h3></h3></div></li>
+            <li><span></span><div><h3></h3></div></li>
+            <li><span></span><div><h3></h3></div></li>
+            <li><span></span><div><h3></h3></div></li>
+            <li><span></span><div><h3></h3></div></li>
         </ul>
     
 
 {% endblock %}
 
-  	<div class="site-wrapper">
-		<a href="/"><h3 class="masthead-brand"><img class="logo-home"src= {% static "img/LOGOhome.png" %} alt="logo"></h3> </a>
-      	<div class="site-wrapper-inner">
-	        <div class="cover-container">
-	          <div class="masthead clearfix">
-	            <div class="inner">
-	              <nav>
-	                <ul class="nav masthead-nav">
-	                  <li class="zero"><a  style="color:white" href="/about_me">O mnie</a></li>
-	                  <li><a  style="color:white" href="/contact">Kontakt</a></li>
-	                  <li><a  style="color:white" href="/photologue/gallery/">Fotografia</a></li>
-	                </ul>
-	              </nav>
-	            </div>
-	          </div>
-	        </div>
-
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><img class="logo" src= {% static "img/LOGOmain.png" %} alt="logo"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="naaav"><a href="/o_mnie">O mnie</a></li>
+            <li class="naaav"><a href="/kontakt">Kontakt</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fotografia<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/photologue/gallery/">Najnowsze galerie</a></li>
+                <li><a href="/photologue/photolist/">Wszystkie zdjęcia</a></li>
+                <li><a href="/sesje_ciazowe/">Sesje ciążowe</a></li>
+                <li><a href="/sesje_rodzinne/">Sesje rodzinne</a></li>
+                <li><a href="/sesje_noworodkowe/">Sesje noworodkowe</a></li>
+                <li><a href="/sesje_okazjonalne/">Sesje okazjonalne</a></li>
+                <li><a href="/projekt_360/"><b>Mój projekt 365</b></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
-   </div>
+    </nav>
 
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
@@ -94,6 +131,7 @@
     <script src="{% static 'js/jquery-2.0.0.min.js' %}"></script>
     <script src="{% static 'js/ajax.js' %}"></script>
     <script src="{% static 'js/modernizr.custom.86080.js' %}"></script>
+
 
 
   </body>

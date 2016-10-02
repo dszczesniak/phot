@@ -25,12 +25,17 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
 
     url(r'^$', home, name='home'),
-    url(r'^contact/$', contact, name='contact'),
-    url(r'^about_me/$', me, name='about_me'),
+    url(r'^kontakt/$', contact, name='kontakt'),
+    url(r'^o_mnie/$', me, name='o_mnie'),
     url(r'^portfolio/$', portfolio, name='portfolio'),
     url(r'^photologue/', include('photologue.urls', namespace='photologue')),
-
-]
+    url(r'^sesje_ciazowe/$', sessions_pregnancy_view, name='sesje_ciazowe'),
+    url(r'^sesje_rodzinne/$', sessions_family_view, name='sesje_rodzinne'),
+    url(r'^sesje_noworodkowe/$', sessions_neonatal_view, name='sesje_noworodkowe'),
+    url(r'^sesje_okazjonalne/$', sessions_occasional_view, name='sesje_okazjonalne'),
+    url(r'^projekt_360/$', project_360_view, name='projekt_360'),
+    
+    ]
 
 
 if settings.DEBUG:
